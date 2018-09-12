@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AADFE5FD21496CA100A33925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE5FC21496CA100A33925 /* AppDelegate.swift */; };
+		AADFE5FF21496CA100A33925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE5FE21496CA100A33925 /* ViewController.swift */; };
+		AADFE60221496CA100A33925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADFE60021496CA100A33925 /* Main.storyboard */; };
+		AADFE60521496CA100A33925 /* TheLastJedi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AADFE60321496CA100A33925 /* TheLastJedi.xcdatamodeld */; };
+		AADFE60721496CA100A33925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADFE60621496CA100A33925 /* Assets.xcassets */; };
+		AADFE60A21496CA100A33925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADFE60821496CA100A33925 /* LaunchScreen.storyboard */; };
+		AADFE61521496CA200A33925 /* TheLastJediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE61421496CA200A33925 /* TheLastJediTests.swift */; };
+		AADFE62021496CA200A33925 /* TheLastJediUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE61F21496CA200A33925 /* TheLastJediUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AADFE61121496CA200A33925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AADFE5F121496CA100A33925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AADFE5F821496CA100A33925;
+			remoteInfo = TheLastJedi;
+		};
+		AADFE61C21496CA200A33925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AADFE5F121496CA100A33925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AADFE5F821496CA100A33925;
+			remoteInfo = TheLastJedi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AADFE5F921496CA100A33925 /* TheLastJedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheLastJedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADFE5FC21496CA100A33925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AADFE5FE21496CA100A33925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AADFE60121496CA100A33925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AADFE60421496CA100A33925 /* TheLastJedi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheLastJedi.xcdatamodel; sourceTree = "<group>"; };
+		AADFE60621496CA100A33925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AADFE60921496CA100A33925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AADFE60B21496CA100A33925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADFE61021496CA200A33925 /* TheLastJediTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheLastJediTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADFE61421496CA200A33925 /* TheLastJediTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLastJediTests.swift; sourceTree = "<group>"; };
+		AADFE61621496CA200A33925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADFE61B21496CA200A33925 /* TheLastJediUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheLastJediUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADFE61F21496CA200A33925 /* TheLastJediUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLastJediUITests.swift; sourceTree = "<group>"; };
+		AADFE62121496CA200A33925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AADFE5F621496CA100A33925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADFE60D21496CA200A33925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADFE61821496CA200A33925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AADFE5F021496CA100A33925 = {
+			isa = PBXGroup;
+			children = (
+				AADFE5FB21496CA100A33925 /* TheLastJedi */,
+				AADFE61321496CA200A33925 /* TheLastJediTests */,
+				AADFE61E21496CA200A33925 /* TheLastJediUITests */,
+				AADFE5FA21496CA100A33925 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AADFE5FA21496CA100A33925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE5F921496CA100A33925 /* TheLastJedi.app */,
+				AADFE61021496CA200A33925 /* TheLastJediTests.xctest */,
+				AADFE61B21496CA200A33925 /* TheLastJediUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AADFE5FB21496CA100A33925 /* TheLastJedi */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE5FC21496CA100A33925 /* AppDelegate.swift */,
+				AADFE5FE21496CA100A33925 /* ViewController.swift */,
+				AADFE60021496CA100A33925 /* Main.storyboard */,
+				AADFE60621496CA100A33925 /* Assets.xcassets */,
+				AADFE60821496CA100A33925 /* LaunchScreen.storyboard */,
+				AADFE60B21496CA100A33925 /* Info.plist */,
+				AADFE60321496CA100A33925 /* TheLastJedi.xcdatamodeld */,
+			);
+			path = TheLastJedi;
+			sourceTree = "<group>";
+		};
+		AADFE61321496CA200A33925 /* TheLastJediTests */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE61421496CA200A33925 /* TheLastJediTests.swift */,
+				AADFE61621496CA200A33925 /* Info.plist */,
+			);
+			path = TheLastJediTests;
+			sourceTree = "<group>";
+		};
+		AADFE61E21496CA200A33925 /* TheLastJediUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE61F21496CA200A33925 /* TheLastJediUITests.swift */,
+				AADFE62121496CA200A33925 /* Info.plist */,
+			);
+			path = TheLastJediUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AADFE5F821496CA100A33925 /* TheLastJedi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADFE62421496CA200A33925 /* Build configuration list for PBXNativeTarget "TheLastJedi" */;
+			buildPhases = (
+				AADFE5F521496CA100A33925 /* Sources */,
+				AADFE5F621496CA100A33925 /* Frameworks */,
+				AADFE5F721496CA100A33925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheLastJedi;
+			productName = TheLastJedi;
+			productReference = AADFE5F921496CA100A33925 /* TheLastJedi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AADFE60F21496CA200A33925 /* TheLastJediTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADFE62721496CA200A33925 /* Build configuration list for PBXNativeTarget "TheLastJediTests" */;
+			buildPhases = (
+				AADFE60C21496CA200A33925 /* Sources */,
+				AADFE60D21496CA200A33925 /* Frameworks */,
+				AADFE60E21496CA200A33925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AADFE61221496CA200A33925 /* PBXTargetDependency */,
+			);
+			name = TheLastJediTests;
+			productName = TheLastJediTests;
+			productReference = AADFE61021496CA200A33925 /* TheLastJediTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AADFE61A21496CA200A33925 /* TheLastJediUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADFE62A21496CA200A33925 /* Build configuration list for PBXNativeTarget "TheLastJediUITests" */;
+			buildPhases = (
+				AADFE61721496CA200A33925 /* Sources */,
+				AADFE61821496CA200A33925 /* Frameworks */,
+				AADFE61921496CA200A33925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AADFE61D21496CA200A33925 /* PBXTargetDependency */,
+			);
+			name = TheLastJediUITests;
+			productName = TheLastJediUITests;
+			productReference = AADFE61B21496CA200A33925 /* TheLastJediUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AADFE5F121496CA100A33925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Move4Mobile;
+				TargetAttributes = {
+					AADFE5F821496CA100A33925 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AADFE60F21496CA200A33925 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AADFE5F821496CA100A33925;
+					};
+					AADFE61A21496CA200A33925 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AADFE5F821496CA100A33925;
+					};
+				};
+			};
+			buildConfigurationList = AADFE5F421496CA100A33925 /* Build configuration list for PBXProject "TheLastJedi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AADFE5F021496CA100A33925;
+			productRefGroup = AADFE5FA21496CA100A33925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AADFE5F821496CA100A33925 /* TheLastJedi */,
+				AADFE60F21496CA200A33925 /* TheLastJediTests */,
+				AADFE61A21496CA200A33925 /* TheLastJediUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AADFE5F721496CA100A33925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADFE60A21496CA100A33925 /* LaunchScreen.storyboard in Resources */,
+				AADFE60721496CA100A33925 /* Assets.xcassets in Resources */,
+				AADFE60221496CA100A33925 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADFE60E21496CA200A33925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADFE61921496CA200A33925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AADFE5F521496CA100A33925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADFE5FF21496CA100A33925 /* ViewController.swift in Sources */,
+				AADFE60521496CA100A33925 /* TheLastJedi.xcdatamodeld in Sources */,
+				AADFE5FD21496CA100A33925 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADFE60C21496CA200A33925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADFE61521496CA200A33925 /* TheLastJediTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADFE61721496CA200A33925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADFE62021496CA200A33925 /* TheLastJediUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AADFE61221496CA200A33925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AADFE5F821496CA100A33925 /* TheLastJedi */;
+			targetProxy = AADFE61121496CA200A33925 /* PBXContainerItemProxy */;
+		};
+		AADFE61D21496CA200A33925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AADFE5F821496CA100A33925 /* TheLastJedi */;
+			targetProxy = AADFE61C21496CA200A33925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AADFE60021496CA100A33925 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AADFE60121496CA100A33925 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AADFE60821496CA100A33925 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AADFE60921496CA100A33925 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AADFE62221496CA200A33925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AADFE62321496CA200A33925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AADFE62521496CA200A33925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQ62CYT4B3;
+				INFOPLIST_FILE = TheLastJedi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.move4mobile.TheLastJedi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AADFE62621496CA200A33925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQ62CYT4B3;
+				INFOPLIST_FILE = TheLastJedi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.move4mobile.TheLastJedi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AADFE62821496CA200A33925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQ62CYT4B3;
+				INFOPLIST_FILE = TheLastJediTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.move4mobile.TheLastJediTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheLastJedi.app/TheLastJedi";
+			};
+			name = Debug;
+		};
+		AADFE62921496CA200A33925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQ62CYT4B3;
+				INFOPLIST_FILE = TheLastJediTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.move4mobile.TheLastJediTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheLastJedi.app/TheLastJedi";
+			};
+			name = Release;
+		};
+		AADFE62B21496CA200A33925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQ62CYT4B3;
+				INFOPLIST_FILE = TheLastJediUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.move4mobile.TheLastJediUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheLastJedi;
+			};
+			name = Debug;
+		};
+		AADFE62C21496CA200A33925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQ62CYT4B3;
+				INFOPLIST_FILE = TheLastJediUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.move4mobile.TheLastJediUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheLastJedi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AADFE5F421496CA100A33925 /* Build configuration list for PBXProject "TheLastJedi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADFE62221496CA200A33925 /* Debug */,
+				AADFE62321496CA200A33925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADFE62421496CA200A33925 /* Build configuration list for PBXNativeTarget "TheLastJedi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADFE62521496CA200A33925 /* Debug */,
+				AADFE62621496CA200A33925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADFE62721496CA200A33925 /* Build configuration list for PBXNativeTarget "TheLastJediTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADFE62821496CA200A33925 /* Debug */,
+				AADFE62921496CA200A33925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADFE62A21496CA200A33925 /* Build configuration list for PBXNativeTarget "TheLastJediUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADFE62B21496CA200A33925 /* Debug */,
+				AADFE62C21496CA200A33925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AADFE60321496CA100A33925 /* TheLastJedi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AADFE60421496CA100A33925 /* TheLastJedi.xcdatamodel */,
+			);
+			currentVersion = AADFE60421496CA100A33925 /* TheLastJedi.xcdatamodel */;
+			path = TheLastJedi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AADFE5F121496CA100A33925 /* Project object */;
+}
