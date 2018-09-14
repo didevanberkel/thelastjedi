@@ -19,6 +19,7 @@ class SWListViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var starship: [SWStarship] = [SWStarship]()
     
     var listType: SWListType = .SWPeople
+    var loadingIndictorAdded: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +35,14 @@ class SWListViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         getListData()
         setSelectedListButton()
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if !loadingIndictorAdded {
+            LoadingIndicator.show()
+            loadingIndictorAdded = true
+        }
     }
     
     func getListData() {
@@ -84,9 +93,9 @@ class SWListViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if listType == .SWPeople {
-            return 120
+            return 142
         }
-        return 88
+        return 104
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -121,6 +130,7 @@ class SWListViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
         let vc = UIStoryboard.listDetail().instantiateViewController(withIdentifier: "SWListDetailViewController") as! SWListDetailViewController
         
         switch listType {

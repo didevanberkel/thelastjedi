@@ -30,6 +30,7 @@ class SWPlanetDetailView: UIView {
         diameterLabel.text = planet.diameter
         climateLabel.text = planet.climate
         
+        planetImage.roundEdges(cornerRadius: planetImage.frame.size.width / 2)
         planetImage.loadImageAsync(with: planet.img)
     }
 }

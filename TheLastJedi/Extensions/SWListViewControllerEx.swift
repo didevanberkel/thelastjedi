@@ -13,23 +13,24 @@ extension SWListViewController: SWListButtonViewDelegate {
     // MARK: - SWListButtonViewDelegate
     func peopleButtonPressed() {
         listType = .SWPeople
-        getListData()
         setSelectedListButton()
+        getListData()
     }
     
     func planetButtonPressed() {
         listType = .SWPlanet
-        getListData()
         setSelectedListButton()
+        getListData()
     }
     
     func starshipButtonPressed() {
         listType = .SWStarship
-        getListData()
         setSelectedListButton()
+        getListData()
     }
     
     func setSelectedListButton() {
+        LoadingIndicator.show()
         listButtonView.peopleButton.isSelected = (listType == .SWPeople)
         listButtonView.planetButton.isSelected = (listType == .SWPlanet)
         listButtonView.starshipButton.isSelected = (listType == .SWStarship)

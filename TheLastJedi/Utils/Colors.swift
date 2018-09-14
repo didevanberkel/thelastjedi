@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-// Color sheet for the standard colors. Not used yet. 
+// Color sheet for the standard colors.
 func UIColorFromRGB(rgbValue: UInt) -> UIColor {
     return UIColor(
         red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,

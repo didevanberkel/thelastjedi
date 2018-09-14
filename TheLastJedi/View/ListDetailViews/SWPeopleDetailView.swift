@@ -32,6 +32,7 @@ class SWPeopleDetailView: UIView {
         birthYearLabel.text = people.birthYear
         hairColorLabel.text = people.hairColor
         
+        peopleImage.roundEdges(cornerRadius: 8.0)
         peopleImage.loadImageAsync(with: people.img)
     }
 }

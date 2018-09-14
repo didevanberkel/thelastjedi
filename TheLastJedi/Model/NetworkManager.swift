@@ -37,6 +37,7 @@ class NetworkManager: NSObject {
         let url = URL(string: "\(URL_BASE)\(listUrl)")
         
         Alamofire.request(url!, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON { response in
+            LoadingIndicator.hide()
             switch response.result {
             case .success(let results):
                 completion(.success, results as? NSObject)
@@ -44,7 +45,6 @@ class NetworkManager: NSObject {
             case .failure:
                 completion(.error, nil)
                 break
-                
             }
         }
     }
@@ -61,7 +61,6 @@ class NetworkManager: NSObject {
             case .failure:
                 completion(.error, nil)
                 break
-                
             }
         }
     }

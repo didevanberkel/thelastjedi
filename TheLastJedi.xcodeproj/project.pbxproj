@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA9EA214214BB8ED00DD1AE1 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EA213214BB8ED00DD1AE1 /* LoadingIndicator.swift */; };
 		AADFE5FD21496CA100A33925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE5FC21496CA100A33925 /* AppDelegate.swift */; };
 		AADFE5FF21496CA100A33925 /* SWListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE5FE21496CA100A33925 /* SWListViewController.swift */; };
 		AADFE60221496CA100A33925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADFE60021496CA100A33925 /* Main.storyboard */; };
@@ -67,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA9EA213214BB8ED00DD1AE1 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		AADFE5F921496CA100A33925 /* TheLastJedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheLastJedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADFE5FC21496CA100A33925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AADFE5FE21496CA100A33925 /* SWListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWListViewController.swift; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 			children = (
 				AADFE67D214B8D8D00A33925 /* Colors.swift */,
 				AADFE6492149876800A33925 /* Constants.swift */,
+				AA9EA213214BB8ED00DD1AE1 /* LoadingIndicator.swift */,
 				AADFE65121498A7E00A33925 /* SWListHelper.swift */,
 				AADFE675214ABA8200A33925 /* SWAboutMeHelper.swift */,
 			);
@@ -470,6 +473,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9EA214214BB8ED00DD1AE1 /* LoadingIndicator.swift in Sources */,
 				AADFE63B214970C800A33925 /* SWListButtonView.swift in Sources */,
 				AADFE67C214AEC4C00A33925 /* SWListViewControllerEx.swift in Sources */,
 				AADFE667214A6FE900A33925 /* SWPeopleDetailView.swift in Sources */,
