@@ -11,3 +11,8 @@
 "about_me_age"="29 jaar";
 "about_me_worktitle"="iOS developer";
 
+// ALERT
+"alert_ok"="Ok";
+"alert_swcall_error_title"="Oops";
+"alert_swcall_error_body"="Something went wrong. Please try again later.";
+

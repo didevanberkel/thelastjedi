@@ -55,7 +55,8 @@ class SWListViewController: UIViewController, UITableViewDelegate, UITableViewDa
                         self.tableView.reloadData()
                     }
                 } else {
-                    // TO DO: Handle error.
+                    // Show error message.
+                    self.alert(message: "alert_swcall_error_body".localized, title: "alert_swcall_error_title".localized)
                 }
             }
             break
@@ -67,7 +68,8 @@ class SWListViewController: UIViewController, UITableViewDelegate, UITableViewDa
                         self.tableView.reloadData()
                     }
                 } else {
-                    // TO DO: Handle error.
+                    // Show error message.
+                    self.alert(message: "alert_swcall_error_body".localized, title: "alert_swcall_error_title".localized)
                 }
             }
             break
@@ -79,7 +81,8 @@ class SWListViewController: UIViewController, UITableViewDelegate, UITableViewDa
                         self.tableView.reloadData()
                     }
                 } else {
-                    // TO DO: Handle error.
+                    // Show error message.
+                    self.alert(message: "alert_swcall_error_body".localized, title: "alert_swcall_error_title".localized)
                 }
             }
             break

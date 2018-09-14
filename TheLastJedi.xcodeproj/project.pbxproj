@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA9EA214214BB8ED00DD1AE1 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EA213214BB8ED00DD1AE1 /* LoadingIndicator.swift */; };
+		AA9EA216214BBFCF00DD1AE1 /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EA215214BBFCF00DD1AE1 /* UIViewControllerEx.swift */; };
 		AADFE5FD21496CA100A33925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE5FC21496CA100A33925 /* AppDelegate.swift */; };
 		AADFE5FF21496CA100A33925 /* SWListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE5FE21496CA100A33925 /* SWListViewController.swift */; };
 		AADFE60221496CA100A33925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADFE60021496CA100A33925 /* Main.storyboard */; };
@@ -69,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		AA9EA213214BB8ED00DD1AE1 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		AA9EA215214BBFCF00DD1AE1 /* UIViewControllerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerEx.swift; sourceTree = "<group>"; };
 		AADFE5F921496CA100A33925 /* TheLastJedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheLastJedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADFE5FC21496CA100A33925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AADFE5FE21496CA100A33925 /* SWListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWListViewController.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				AADFE660214A6E6F00A33925 /* UIStoryboardEx.swift */,
 				AADFE67B214AEC4C00A33925 /* SWListViewControllerEx.swift */,
 				AADFE683214B8E7D00A33925 /* StringEx.swift */,
+				AA9EA215214BBFCF00DD1AE1 /* UIViewControllerEx.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 				AADFE5FF21496CA100A33925 /* SWListViewController.swift in Sources */,
 				AADFE67E214B8D8D00A33925 /* Colors.swift in Sources */,
 				AADFE60521496CA100A33925 /* TheLastJedi.xcdatamodeld in Sources */,
+				AA9EA216214BBFCF00DD1AE1 /* UIViewControllerEx.swift in Sources */,
 				AADFE676214ABA8200A33925 /* SWAboutMeHelper.swift in Sources */,
 				AADFE6502149886600A33925 /* SWStarship.swift in Sources */,
 				AADFE661214A6E6F00A33925 /* UIStoryboardEx.swift in Sources */,
