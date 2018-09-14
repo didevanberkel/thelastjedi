@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SWListDetailViewController-->
+        <scene sceneID="WGQ-YD-L2x">
+            <objects>
+                <viewController storyboardIdentifier="SWListDetailViewController" title="SWListDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eik-l4-sY9" customClass="SWListDetailViewController" customModule="TheLastJedi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fXZ-Gp-qsP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EdH-Bt-nbR">
+                                <rect key="frame" x="16" y="36" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backButtonPressed:" destination="eik-l4-sY9" eventType="touchUpInside" id="X8K-pd-76w"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EdH-Bt-nbR" firstAttribute="top" secondItem="Yia-WV-aNI" secondAttribute="top" constant="16" id="QpO-R3-qlk"/>
+                            <constraint firstItem="EdH-Bt-nbR" firstAttribute="leading" secondItem="Yia-WV-aNI" secondAttribute="leading" constant="16" id="zMp-hn-IP6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yia-WV-aNI"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="EdH-Bt-nbR" id="O5x-rF-gAX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8H3-cm-dV6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="178"/>
+        </scene>
+    </scenes>
+</document>

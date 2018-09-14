@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  TheLastJedi
+
+  Created by Dide van Berkel on 14/09/2018.
+  Copyright © 2018 Move4Mobile. All rights reserved.
+*/
+
+"error_invalid_grant"="De ingevulde gegevens zijn niet correct.";

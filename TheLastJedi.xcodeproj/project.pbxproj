@@ -8,13 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		AADFE5FD21496CA100A33925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE5FC21496CA100A33925 /* AppDelegate.swift */; };
-		AADFE5FF21496CA100A33925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE5FE21496CA100A33925 /* ViewController.swift */; };
+		AADFE5FF21496CA100A33925 /* SWListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE5FE21496CA100A33925 /* SWListViewController.swift */; };
 		AADFE60221496CA100A33925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADFE60021496CA100A33925 /* Main.storyboard */; };
 		AADFE60521496CA100A33925 /* TheLastJedi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AADFE60321496CA100A33925 /* TheLastJedi.xcdatamodeld */; };
 		AADFE60721496CA100A33925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADFE60621496CA100A33925 /* Assets.xcassets */; };
 		AADFE60A21496CA100A33925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADFE60821496CA100A33925 /* LaunchScreen.storyboard */; };
 		AADFE61521496CA200A33925 /* TheLastJediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE61421496CA200A33925 /* TheLastJediTests.swift */; };
 		AADFE62021496CA200A33925 /* TheLastJediUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE61F21496CA200A33925 /* TheLastJediUITests.swift */; };
+		AADFE63121496D8600A33925 /* SWAboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE63021496D8600A33925 /* SWAboutMeViewController.swift */; };
+		AADFE63521496EFB00A33925 /* SWPeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE63321496EFB00A33925 /* SWPeopleCell.swift */; };
+		AADFE63621496EFB00A33925 /* SWPeopleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADFE63421496EFB00A33925 /* SWPeopleCell.xib */; };
+		AADFE63B214970C800A33925 /* SWListButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE639214970C800A33925 /* SWListButtonView.swift */; };
+		AADFE64121497EE400A33925 /* SWListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE64021497EE400A33925 /* SWListDetailViewController.swift */; };
+		AADFE6442149844800A33925 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AADFE6432149844800A33925 /* Alamofire.framework */; };
+		AADFE6482149857700A33925 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE6472149857700A33925 /* NetworkManager.swift */; };
+		AADFE64A2149876800A33925 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE6492149876800A33925 /* Constants.swift */; };
+		AADFE64C2149884B00A33925 /* SWPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE64B2149884B00A33925 /* SWPeople.swift */; };
+		AADFE64E2149885800A33925 /* SWPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE64D2149885800A33925 /* SWPlanet.swift */; };
+		AADFE6502149886600A33925 /* SWStarship.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE64F2149886600A33925 /* SWStarship.swift */; };
+		AADFE65221498A7E00A33925 /* SWListHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE65121498A7E00A33925 /* SWListHelper.swift */; };
+		AADFE6552149975600A33925 /* SWPlanetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE6532149975600A33925 /* SWPlanetCell.swift */; };
+		AADFE6562149975600A33925 /* SWPlanetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADFE6542149975600A33925 /* SWPlanetCell.xib */; };
+		AADFE6592149976900A33925 /* SWStarshipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE6572149976900A33925 /* SWStarshipCell.swift */; };
+		AADFE65A2149976900A33925 /* SWStarshipCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADFE6582149976900A33925 /* SWStarshipCell.xib */; };
+		AADFE65D214A38C900A33925 /* UIImageViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE65C214A38C900A33925 /* UIImageViewEx.swift */; };
+		AADFE65F214A43DC00A33925 /* SWImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE65E214A43DC00A33925 /* SWImage.swift */; };
+		AADFE661214A6E6F00A33925 /* UIStoryboardEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE660214A6E6F00A33925 /* UIStoryboardEx.swift */; };
+		AADFE663214A6ECC00A33925 /* ListDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADFE662214A6ECC00A33925 /* ListDetail.storyboard */; };
+		AADFE667214A6FE900A33925 /* SWPeopleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE666214A6FE900A33925 /* SWPeopleDetailView.swift */; };
+		AADFE669214A6FF600A33925 /* SWPlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE668214A6FF600A33925 /* SWPlanetDetailView.swift */; };
+		AADFE66B214A700400A33925 /* SWStarshipDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE66A214A700400A33925 /* SWStarshipDetailView.swift */; };
+		AADFE66D214A70F800A33925 /* SWPeopleDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADFE66C214A70F800A33925 /* SWPeopleDetailView.xib */; };
+		AADFE66F214A7A1900A33925 /* SWPlanetDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADFE66E214A7A1900A33925 /* SWPlanetDetailView.xib */; };
+		AADFE671214A7A3000A33925 /* SWStarshipDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADFE670214A7A3000A33925 /* SWStarshipDetailView.xib */; };
+		AADFE676214ABA8200A33925 /* SWListDetailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE675214ABA8200A33925 /* SWListDetailHelper.swift */; };
+		AADFE678214ABB1900A33925 /* SWAboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE677214ABB1900A33925 /* SWAboutMe.swift */; };
+		AADFE67C214AEC4C00A33925 /* SWListButtonViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE67B214AEC4C00A33925 /* SWListButtonViewDelegate.swift */; };
+		AADFE67E214B8D8D00A33925 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE67D214B8D8D00A33925 /* Colors.swift */; };
+		AADFE680214B8DE300A33925 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE67F214B8DE300A33925 /* Fonts.swift */; };
+		AADFE682214B8E5E00A33925 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AADFE681214B8E5E00A33925 /* Localizable.strings */; };
+		AADFE684214B8E7D00A33925 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE683214B8E7D00A33925 /* StringEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +70,7 @@
 /* Begin PBXFileReference section */
 		AADFE5F921496CA100A33925 /* TheLastJedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheLastJedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADFE5FC21496CA100A33925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AADFE5FE21496CA100A33925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AADFE5FE21496CA100A33925 /* SWListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWListViewController.swift; sourceTree = "<group>"; };
 		AADFE60121496CA100A33925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AADFE60421496CA100A33925 /* TheLastJedi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheLastJedi.xcdatamodel; sourceTree = "<group>"; };
 		AADFE60621496CA100A33925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +82,39 @@
 		AADFE61B21496CA200A33925 /* TheLastJediUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheLastJediUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADFE61F21496CA200A33925 /* TheLastJediUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLastJediUITests.swift; sourceTree = "<group>"; };
 		AADFE62121496CA200A33925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADFE63021496D8600A33925 /* SWAboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAboutMeViewController.swift; sourceTree = "<group>"; };
+		AADFE63321496EFB00A33925 /* SWPeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPeopleCell.swift; sourceTree = "<group>"; };
+		AADFE63421496EFB00A33925 /* SWPeopleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWPeopleCell.xib; sourceTree = "<group>"; };
+		AADFE639214970C800A33925 /* SWListButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWListButtonView.swift; sourceTree = "<group>"; };
+		AADFE64021497EE400A33925 /* SWListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWListDetailViewController.swift; sourceTree = "<group>"; };
+		AADFE6432149844800A33925 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		AADFE6472149857700A33925 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AADFE6492149876800A33925 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AADFE64B2149884B00A33925 /* SWPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPeople.swift; sourceTree = "<group>"; };
+		AADFE64D2149885800A33925 /* SWPlanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanet.swift; sourceTree = "<group>"; };
+		AADFE64F2149886600A33925 /* SWStarship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWStarship.swift; sourceTree = "<group>"; };
+		AADFE65121498A7E00A33925 /* SWListHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWListHelper.swift; sourceTree = "<group>"; };
+		AADFE6532149975600A33925 /* SWPlanetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanetCell.swift; sourceTree = "<group>"; };
+		AADFE6542149975600A33925 /* SWPlanetCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWPlanetCell.xib; sourceTree = "<group>"; };
+		AADFE6572149976900A33925 /* SWStarshipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWStarshipCell.swift; sourceTree = "<group>"; };
+		AADFE6582149976900A33925 /* SWStarshipCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWStarshipCell.xib; sourceTree = "<group>"; };
+		AADFE65C214A38C900A33925 /* UIImageViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewEx.swift; sourceTree = "<group>"; };
+		AADFE65E214A43DC00A33925 /* SWImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWImage.swift; sourceTree = "<group>"; };
+		AADFE660214A6E6F00A33925 /* UIStoryboardEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardEx.swift; sourceTree = "<group>"; };
+		AADFE662214A6ECC00A33925 /* ListDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListDetail.storyboard; sourceTree = "<group>"; };
+		AADFE666214A6FE900A33925 /* SWPeopleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPeopleDetailView.swift; sourceTree = "<group>"; };
+		AADFE668214A6FF600A33925 /* SWPlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWPlanetDetailView.swift; sourceTree = "<group>"; };
+		AADFE66A214A700400A33925 /* SWStarshipDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWStarshipDetailView.swift; sourceTree = "<group>"; };
+		AADFE66C214A70F800A33925 /* SWPeopleDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWPeopleDetailView.xib; sourceTree = "<group>"; };
+		AADFE66E214A7A1900A33925 /* SWPlanetDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWPlanetDetailView.xib; sourceTree = "<group>"; };
+		AADFE670214A7A3000A33925 /* SWStarshipDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWStarshipDetailView.xib; sourceTree = "<group>"; };
+		AADFE675214ABA8200A33925 /* SWListDetailHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWListDetailHelper.swift; sourceTree = "<group>"; };
+		AADFE677214ABB1900A33925 /* SWAboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAboutMe.swift; sourceTree = "<group>"; };
+		AADFE67B214AEC4C00A33925 /* SWListButtonViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWListButtonViewDelegate.swift; sourceTree = "<group>"; };
+		AADFE67D214B8D8D00A33925 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AADFE67F214B8DE300A33925 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		AADFE681214B8E5E00A33925 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		AADFE683214B8E7D00A33925 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADFE6442149844800A33925 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +150,7 @@
 				AADFE61321496CA200A33925 /* TheLastJediTests */,
 				AADFE61E21496CA200A33925 /* TheLastJediUITests */,
 				AADFE5FA21496CA100A33925 /* Products */,
+				AADFE6422149844800A33925 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +167,12 @@
 		AADFE5FB21496CA100A33925 /* TheLastJedi */ = {
 			isa = PBXGroup;
 			children = (
-				AADFE5FC21496CA100A33925 /* AppDelegate.swift */,
-				AADFE5FE21496CA100A33925 /* ViewController.swift */,
-				AADFE60021496CA100A33925 /* Main.storyboard */,
-				AADFE60621496CA100A33925 /* Assets.xcassets */,
-				AADFE60821496CA100A33925 /* LaunchScreen.storyboard */,
-				AADFE60B21496CA100A33925 /* Info.plist */,
+				AADFE62D21496D2500A33925 /* Model */,
+				AADFE62E21496D2C00A33925 /* View */,
+				AADFE62F21496D3300A33925 /* Controller */,
+				AADFE63D2149717600A33925 /* Extensions */,
+				AADFE63E2149718200A33925 /* Utils */,
+				AADFE63F2149719800A33925 /* Supporting files */,
 				AADFE60321496CA100A33925 /* TheLastJedi.xcdatamodeld */,
 			);
 			path = TheLastJedi;
@@ -128,6 +196,126 @@
 			path = TheLastJediUITests;
 			sourceTree = "<group>";
 		};
+		AADFE62D21496D2500A33925 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE6472149857700A33925 /* NetworkManager.swift */,
+				AADFE64B2149884B00A33925 /* SWPeople.swift */,
+				AADFE64D2149885800A33925 /* SWPlanet.swift */,
+				AADFE64F2149886600A33925 /* SWStarship.swift */,
+				AADFE65E214A43DC00A33925 /* SWImage.swift */,
+				AADFE677214ABB1900A33925 /* SWAboutMe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AADFE62E21496D2C00A33925 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE665214A6F8900A33925 /* ListViews */,
+				AADFE664214A6F4600A33925 /* ListDetailViews */,
+				AADFE63221496EBB00A33925 /* Cells */,
+				AADFE65B214A344800A33925 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AADFE62F21496D3300A33925 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE5FE21496CA100A33925 /* SWListViewController.swift */,
+				AADFE64021497EE400A33925 /* SWListDetailViewController.swift */,
+				AADFE63021496D8600A33925 /* SWAboutMeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AADFE63221496EBB00A33925 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE63321496EFB00A33925 /* SWPeopleCell.swift */,
+				AADFE63421496EFB00A33925 /* SWPeopleCell.xib */,
+				AADFE6532149975600A33925 /* SWPlanetCell.swift */,
+				AADFE6542149975600A33925 /* SWPlanetCell.xib */,
+				AADFE6572149976900A33925 /* SWStarshipCell.swift */,
+				AADFE6582149976900A33925 /* SWStarshipCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AADFE63D2149717600A33925 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE65C214A38C900A33925 /* UIImageViewEx.swift */,
+				AADFE660214A6E6F00A33925 /* UIStoryboardEx.swift */,
+				AADFE67B214AEC4C00A33925 /* SWListButtonViewDelegate.swift */,
+				AADFE683214B8E7D00A33925 /* StringEx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AADFE63E2149718200A33925 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE67D214B8D8D00A33925 /* Colors.swift */,
+				AADFE6492149876800A33925 /* Constants.swift */,
+				AADFE67F214B8DE300A33925 /* Fonts.swift */,
+				AADFE65121498A7E00A33925 /* SWListHelper.swift */,
+				AADFE675214ABA8200A33925 /* SWListDetailHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AADFE63F2149719800A33925 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE60B21496CA100A33925 /* Info.plist */,
+				AADFE60621496CA100A33925 /* Assets.xcassets */,
+				AADFE5FC21496CA100A33925 /* AppDelegate.swift */,
+				AADFE681214B8E5E00A33925 /* Localizable.strings */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		AADFE6422149844800A33925 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE6432149844800A33925 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AADFE65B214A344800A33925 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE60821496CA100A33925 /* LaunchScreen.storyboard */,
+				AADFE60021496CA100A33925 /* Main.storyboard */,
+				AADFE662214A6ECC00A33925 /* ListDetail.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AADFE664214A6F4600A33925 /* ListDetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE666214A6FE900A33925 /* SWPeopleDetailView.swift */,
+				AADFE66C214A70F800A33925 /* SWPeopleDetailView.xib */,
+				AADFE668214A6FF600A33925 /* SWPlanetDetailView.swift */,
+				AADFE66E214A7A1900A33925 /* SWPlanetDetailView.xib */,
+				AADFE66A214A700400A33925 /* SWStarshipDetailView.swift */,
+				AADFE670214A7A3000A33925 /* SWStarshipDetailView.xib */,
+			);
+			path = ListDetailViews;
+			sourceTree = "<group>";
+		};
+		AADFE665214A6F8900A33925 /* ListViews */ = {
+			isa = PBXGroup;
+			children = (
+				AADFE639214970C800A33925 /* SWListButtonView.swift */,
+			);
+			path = ListViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +326,7 @@
 				AADFE5F521496CA100A33925 /* Sources */,
 				AADFE5F621496CA100A33925 /* Frameworks */,
 				AADFE5F721496CA100A33925 /* Resources */,
+				AADFE646214984AC00A33925 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -233,8 +422,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AADFE60A21496CA100A33925 /* LaunchScreen.storyboard in Resources */,
+				AADFE671214A7A3000A33925 /* SWStarshipDetailView.xib in Resources */,
+				AADFE682214B8E5E00A33925 /* Localizable.strings in Resources */,
+				AADFE65A2149976900A33925 /* SWStarshipCell.xib in Resources */,
+				AADFE63621496EFB00A33925 /* SWPeopleCell.xib in Resources */,
+				AADFE663214A6ECC00A33925 /* ListDetail.storyboard in Resources */,
+				AADFE66D214A70F800A33925 /* SWPeopleDetailView.xib in Resources */,
 				AADFE60721496CA100A33925 /* Assets.xcassets in Resources */,
 				AADFE60221496CA100A33925 /* Main.storyboard in Resources */,
+				AADFE6562149975600A33925 /* SWPlanetCell.xib in Resources */,
+				AADFE66F214A7A1900A33925 /* SWPlanetDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +451,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AADFE646214984AC00A33925 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AADFE5F521496CA100A33925 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AADFE5FF21496CA100A33925 /* ViewController.swift in Sources */,
+				AADFE63B214970C800A33925 /* SWListButtonView.swift in Sources */,
+				AADFE67C214AEC4C00A33925 /* SWListButtonViewDelegate.swift in Sources */,
+				AADFE680214B8DE300A33925 /* Fonts.swift in Sources */,
+				AADFE667214A6FE900A33925 /* SWPeopleDetailView.swift in Sources */,
+				AADFE65221498A7E00A33925 /* SWListHelper.swift in Sources */,
+				AADFE66B214A700400A33925 /* SWStarshipDetailView.swift in Sources */,
+				AADFE5FF21496CA100A33925 /* SWListViewController.swift in Sources */,
+				AADFE67E214B8D8D00A33925 /* Colors.swift in Sources */,
 				AADFE60521496CA100A33925 /* TheLastJedi.xcdatamodeld in Sources */,
+				AADFE676214ABA8200A33925 /* SWListDetailHelper.swift in Sources */,
+				AADFE6502149886600A33925 /* SWStarship.swift in Sources */,
+				AADFE661214A6E6F00A33925 /* UIStoryboardEx.swift in Sources */,
+				AADFE669214A6FF600A33925 /* SWPlanetDetailView.swift in Sources */,
+				AADFE63121496D8600A33925 /* SWAboutMeViewController.swift in Sources */,
+				AADFE64E2149885800A33925 /* SWPlanet.swift in Sources */,
+				AADFE6482149857700A33925 /* NetworkManager.swift in Sources */,
+				AADFE65D214A38C900A33925 /* UIImageViewEx.swift in Sources */,
+				AADFE6592149976900A33925 /* SWStarshipCell.swift in Sources */,
+				AADFE678214ABB1900A33925 /* SWAboutMe.swift in Sources */,
+				AADFE63521496EFB00A33925 /* SWPeopleCell.swift in Sources */,
+				AADFE64C2149884B00A33925 /* SWPeople.swift in Sources */,
+				AADFE684214B8E7D00A33925 /* StringEx.swift in Sources */,
 				AADFE5FD21496CA100A33925 /* AppDelegate.swift in Sources */,
+				AADFE64121497EE400A33925 /* SWListDetailViewController.swift in Sources */,
+				AADFE64A2149876800A33925 /* Constants.swift in Sources */,
+				AADFE6552149975600A33925 /* SWPlanetCell.swift in Sources */,
+				AADFE65F214A43DC00A33925 /* SWImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +674,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQ62CYT4B3;
-				INFOPLIST_FILE = TheLastJedi/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TheLastJedi/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +696,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQ62CYT4B3;
-				INFOPLIST_FILE = TheLastJedi/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TheLastJedi/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

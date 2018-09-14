@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="SWPlanetCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="SWPlanetCell" rowHeight="103" id="KGk-i7-Jjw" customClass="SWPlanetCell" customModule="TheLastJedi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="102.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sw_image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="T1c-wn-ONL">
+                        <rect key="frame" x="8" y="15" width="72" height="72"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="72" id="Sgy-IC-ckY"/>
+                            <constraint firstAttribute="width" constant="72" id="kdh-7O-bLU"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nRh-2P-OJp">
+                        <rect key="frame" x="88" y="8" width="224" height="86.5"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="oGE-VN-5JG">
+                                <rect key="frame" x="0.0" y="0.0" width="224" height="23.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgN-9B-z0z">
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="23.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Luke Skywalker" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oae-wc-n7N">
+                                        <rect key="frame" x="112" y="0.0" width="112" height="23.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Oxx-zB-kIL">
+                                <rect key="frame" x="0.0" y="31.5" width="224" height="23.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diameter:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7Q-Jd-rfx">
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="23.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10200" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CvS-wf-13a">
+                                        <rect key="frame" x="112" y="0.0" width="112" height="23.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="T37-eR-kE9">
+                                <rect key="frame" x="0.0" y="63" width="224" height="23.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Climate:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5A-od-pdB">
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="23.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="temperate, tropical" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbW-yg-9hw">
+                                        <rect key="frame" x="112" y="0.0" width="112" height="23.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nRh-2P-OJp" firstAttribute="leading" secondItem="T1c-wn-ONL" secondAttribute="trailing" constant="8" id="2pX-rO-tgx"/>
+                    <constraint firstItem="T1c-wn-ONL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="3Kl-oN-rkY"/>
+                    <constraint firstItem="T1c-wn-ONL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Mjt-R1-OTb"/>
+                    <constraint firstAttribute="bottom" secondItem="nRh-2P-OJp" secondAttribute="bottom" constant="8" id="OOY-zm-n9V"/>
+                    <constraint firstItem="nRh-2P-OJp" firstAttribute="leading" secondItem="T1c-wn-ONL" secondAttribute="trailing" constant="8" id="T7g-lB-CS9"/>
+                    <constraint firstAttribute="trailing" secondItem="nRh-2P-OJp" secondAttribute="trailing" constant="8" id="glW-YY-H7P"/>
+                    <constraint firstItem="nRh-2P-OJp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="xng-oX-HKk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="climateLabel" destination="EbW-yg-9hw" id="gK3-cT-xSY"/>
+                <outlet property="diameterLabel" destination="CvS-wf-13a" id="eow-NU-24W"/>
+                <outlet property="nameLabel" destination="Oae-wc-n7N" id="k7H-mJ-LM5"/>
+                <outlet property="planetImage" destination="T1c-wn-ONL" id="fF3-5l-Mry"/>
+            </connections>
+            <point key="canvasLocation" x="74" y="164.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="sw_image_placeholder" width="400" height="300"/>
+    </resources>
+</document>
