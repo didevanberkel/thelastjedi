@@ -28,7 +28,6 @@ class SWPeopleCell: UITableViewCell {
     }
     
     func setupCell(person: SWPeople) {
-        peopleImage.layer.masksToBounds = true
         peopleImage.roundEdges(cornerRadius: 8.0)
         
         nameLabel.text = person.name

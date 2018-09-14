@@ -21,5 +21,5 @@ let URL_STARSHIP = "starships/"
 let URL_IMAGE = "https://pbs.twimg.com/profile_images/706705820554113024/nMv9bKOo_400x400.jpg"
 
 // LinkedIn profile url.
-let URL_LINKEDIN = "www.linkedin.com/in/didevanberkel"
+let URL_LINKEDIN = "https://www.linkedin.com/in/didevanberkel"
 let URL_LINKEDIN_IMG = "https://lh3.googleusercontent.com/-nCib8S-z8H8/UU7J41_r_oI/AAAAAAAAADQ/zi93ouxPqG4/w480-h479-n/photo.jpg"

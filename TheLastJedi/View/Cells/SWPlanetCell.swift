@@ -27,7 +27,6 @@ class SWPlanetCell: UITableViewCell {
     }
     
     func setupCell(planet: SWPlanet) {
-        planetImage.layer.masksToBounds = true
         planetImage.roundEdges(cornerRadius: planetImage.frame.size.width / 2)
         
         nameLabel.text = planet.name

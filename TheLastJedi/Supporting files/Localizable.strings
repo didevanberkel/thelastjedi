@@ -6,4 +6,8 @@
   Copyright © 2018 Move4Mobile. All rights reserved.
 */
 
-"error_invalid_grant"="De ingevulde gegevens zijn niet correct.";
+// ABOUT ME
+"about_me_name"="Dide van Berkel";
+"about_me_age"="29 jaar";
+"about_me_worktitle"="iOS developer";
+

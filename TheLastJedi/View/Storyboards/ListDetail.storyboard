@@ -20,6 +20,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EdH-Bt-nbR">
                                 <rect key="frame" x="16" y="36" width="34" height="30"/>
+                                <color key="tintColor" red="0.62745098040000002" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <action selector="backButtonPressed:" destination="eik-l4-sY9" eventType="touchUpInside" id="X8K-pd-76w"/>

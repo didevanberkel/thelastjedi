@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+// Color sheet for the standard colors. Not used yet. 
 func UIColorFromRGB(rgbValue: UInt) -> UIColor {
     return UIColor(
         red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
@@ -20,6 +21,7 @@ func UIColorFromRGB(rgbValue: UInt) -> UIColor {
 
 class SWColors {
     
-    class func Aqua() -> UIColor { return UIColorFromRGB(rgbValue: 0x00AAFF) }
+    class func darkGrey() -> UIColor { return UIColorFromRGB(rgbValue: 0x26262B) }
+    class func lightGrey() -> UIColor { return UIColorFromRGB(rgbValue: 0xA0A6AD) }
     
 }

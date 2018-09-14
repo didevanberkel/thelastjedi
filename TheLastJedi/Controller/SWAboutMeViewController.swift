@@ -7,18 +7,37 @@
 //
 
 import UIKit
+import SafariServices
 
 class SWAboutMeViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
-    @IBOutlet weak var hobbiesLabel: UILabel!
+    @IBOutlet weak var workLabel: UILabel!
     @IBOutlet weak var linkedInButton: UIButton!
+    @IBOutlet weak var aboutMeImage: UIImageView!
+    
+    var aboutMe: SWAboutMe?
+    var linkedInURL: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        
+        // Get static data from the SWABoutMe helper class.
+        aboutMe = SWAboutMeHelper.getAboutMeData()
+        if aboutMe != nil {
+            nameLabel.text = aboutMe!.name
+            ageLabel.text = aboutMe!.age
+            workLabel.text = aboutMe!.workTitle
+            linkedInURL = aboutMe!.linkedIn
+            
+            aboutMeImage.loadImageAsync(with: aboutMe!.img)
+        }
+        
+        // Set rounded corners image.
+        aboutMeImage.roundEdges(cornerRadius: 8.0)
     }
     
     override func didReceiveMemoryWarning() {
@@ -27,7 +46,12 @@ class SWAboutMeViewController: UIViewController {
     }
     
     @IBAction func linkedInButtonPressed(_ sender: Any) {
-        // Navigate to linkedIn url. 
+        // Navigate to linkedIn url.
+        if let url = URL(string: linkedInURL) {
+            let svc = SFSafariViewController(url: url)
+            svc.preferredBarTintColor = UIColor.black
+            self.present(svc, animated: true, completion: nil)
+        }
     }
     
     /*

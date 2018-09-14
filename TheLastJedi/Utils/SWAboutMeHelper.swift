@@ -8,10 +8,11 @@
 
 import Foundation
 
-class SWListDetailHelper {
+class SWAboutMeHelper {
     
     class func getAboutMeData() -> SWAboutMe {
-        return SWAboutMe(name: "Dide van Berkel", age: "29 years old", workTitle: "iOS developer", linkedIn: URL_LINKEDIN, img: URL_LINKEDIN_IMG)
+        // Some static data about me.
+        return SWAboutMe(name: "about_me_name".localized, age: "about_me_age".localized, workTitle: "about_me_worktitle".localized, linkedIn: URL_LINKEDIN, img: URL_LINKEDIN_IMG)
     }
     
 }
