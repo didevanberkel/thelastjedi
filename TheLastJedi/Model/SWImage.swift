@@ -16,8 +16,6 @@ class SWImage {
     static let shared = SWImage()
     
     private init() {
-        // make sure to purge cache on memory pressure
-        
         observer = NotificationCenter.default.addObserver(forName: .UIApplicationDidReceiveMemoryWarning, object: nil, queue: nil) { [weak self] notification in
             self?.cache.removeAllObjects()
         }

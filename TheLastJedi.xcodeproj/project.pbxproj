@@ -43,7 +43,7 @@
 		AADFE671214A7A3000A33925 /* SWStarshipDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AADFE670214A7A3000A33925 /* SWStarshipDetailView.xib */; };
 		AADFE676214ABA8200A33925 /* SWAboutMeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE675214ABA8200A33925 /* SWAboutMeHelper.swift */; };
 		AADFE678214ABB1900A33925 /* SWAboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE677214ABB1900A33925 /* SWAboutMe.swift */; };
-		AADFE67C214AEC4C00A33925 /* SWListButtonViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE67B214AEC4C00A33925 /* SWListButtonViewDelegate.swift */; };
+		AADFE67C214AEC4C00A33925 /* SWListViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE67B214AEC4C00A33925 /* SWListViewControllerEx.swift */; };
 		AADFE67E214B8D8D00A33925 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE67D214B8D8D00A33925 /* Colors.swift */; };
 		AADFE682214B8E5E00A33925 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AADFE681214B8E5E00A33925 /* Localizable.strings */; };
 		AADFE684214B8E7D00A33925 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADFE683214B8E7D00A33925 /* StringEx.swift */; };
@@ -109,7 +109,7 @@
 		AADFE670214A7A3000A33925 /* SWStarshipDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWStarshipDetailView.xib; sourceTree = "<group>"; };
 		AADFE675214ABA8200A33925 /* SWAboutMeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAboutMeHelper.swift; sourceTree = "<group>"; };
 		AADFE677214ABB1900A33925 /* SWAboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAboutMe.swift; sourceTree = "<group>"; };
-		AADFE67B214AEC4C00A33925 /* SWListButtonViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWListButtonViewDelegate.swift; sourceTree = "<group>"; };
+		AADFE67B214AEC4C00A33925 /* SWListViewControllerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWListViewControllerEx.swift; sourceTree = "<group>"; };
 		AADFE67D214B8D8D00A33925 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		AADFE681214B8E5E00A33925 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		AADFE683214B8E7D00A33925 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 			children = (
 				AADFE65C214A38C900A33925 /* UIImageViewEx.swift */,
 				AADFE660214A6E6F00A33925 /* UIStoryboardEx.swift */,
-				AADFE67B214AEC4C00A33925 /* SWListButtonViewDelegate.swift */,
+				AADFE67B214AEC4C00A33925 /* SWListViewControllerEx.swift */,
 				AADFE683214B8E7D00A33925 /* StringEx.swift */,
 			);
 			path = Extensions;
@@ -471,7 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AADFE63B214970C800A33925 /* SWListButtonView.swift in Sources */,
-				AADFE67C214AEC4C00A33925 /* SWListButtonViewDelegate.swift in Sources */,
+				AADFE67C214AEC4C00A33925 /* SWListViewControllerEx.swift in Sources */,
 				AADFE667214A6FE900A33925 /* SWPeopleDetailView.swift in Sources */,
 				AADFE65221498A7E00A33925 /* SWListHelper.swift in Sources */,
 				AADFE66B214A700400A33925 /* SWStarshipDetailView.swift in Sources */,

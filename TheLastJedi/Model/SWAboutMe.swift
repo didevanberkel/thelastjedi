@@ -10,18 +10,38 @@ import Foundation
 
 struct SWAboutMe {
     
-    var name: String = ""
-    var age: String = ""
-    var workTitle: String = ""
-    var img: String = ""
-    var linkedIn: String = ""
+    private var _name: String = ""
+    private var _age: String = ""
+    private var _workTitle: String = ""
+    private var _img: String = ""
+    private var _linkedIn: String = ""
+    
+    var name: String {
+        return _name
+    }
+    
+    var age: String {
+        return _age
+    }
+    
+    var workTitle: String {
+        return _workTitle
+    }
+    
+    var linkedIn: String {
+        return _linkedIn
+    }
+    
+    var img: String {
+        return _img
+    }
     
     init(name: String, age: String, workTitle: String, linkedIn: String, img: String) {
-        self.name = name
-        self.age = age
-        self.workTitle = workTitle
-        self.img = img
-        self.linkedIn = linkedIn
+        self._name = name
+        self._age = age
+        self._workTitle = workTitle
+        self._img = img
+        self._linkedIn = linkedIn
     }
     
 }

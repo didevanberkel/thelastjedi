@@ -19,6 +19,7 @@ class NetworkManager: NSObject {
     
     static let shared = NetworkManager() // shared instance
     
+    // Download the SW Data from swapi.co.
     func downloadSWData(type: SWListType, completion: @escaping CompletionBlock) {
         
         var listUrl: String = URL_PEOPLE
@@ -48,6 +49,7 @@ class NetworkManager: NSObject {
         }
     }
     
+    // Download a 'random' SW image from the internet. 
     func downloadSWImage(completion: @escaping CompletionBlock) {
         let url = URL(string: "\(URL_IMAGE)")
         
